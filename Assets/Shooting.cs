@@ -9,9 +9,6 @@ public class Shooting : MonoBehaviour
 
     public float waterForce = 20f;
 
-
-    //private Vector2 screenBounds; //Bu kýsým getWater prefablarý ekranýn altýna düþünce kaybolmasý içindir
-
     // Update is called once per frame
     void Update()
     {
@@ -19,12 +16,6 @@ public class Shooting : MonoBehaviour
         {
             Shoot();
         }
-
-
-        //if (transform.position.x < screenBounds.x * -1) //Bu kýsým getWater prefablarý ekranýn altýna düþünce kaybolmasý içindir
-        //{
-        //    Destroy(this.gameObject);
-        //}
     }
 
     void Shoot()
